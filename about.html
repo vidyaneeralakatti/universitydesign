@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="stylev.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .msg {
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-right: 300px;
+            margin-top: 50px;
+        }
+
+        .about-col img {
+            box-shadow: 2px 2px 2px 3px grey;
+        }
+        .fa{
+            color: white;
+            font-size: 1.5rem
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Imagess/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+              
+                <ul>
+                    <li><a href="indexv.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+
+                </ul>
+                <div class="msg">ABOUT</div>
+            </div>
+            <a href="indexv.html">
+            <i class="fa fa-bars" ></i></a>
+        </nav>
+        <h1>About us</h1>
+
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>World's Largest University</h1>
+                <p>With 3.5 million students matriculated, the Indira Gandhi National Open University (IGNOU) from India
+                    is the largest university in the world. It accepts almost 20 percent of all students in India. This
+                    number is even bigger if it is compared to Germany, where 2.7 million students in total are
+                    matriculated. It was founded with the idea to make higher education available in every part of
+                    India. Therefore it offers 226 study subjects across 21 faculties. With several institutions and 15
+                    field offices in different countries, Indira Gandhi National Open University guarantees itself an
+                    international place.</p>
+                <a href="" class="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="Imagess/about.jpg">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/LlCwHnp3kL4?si=gPjo9A3cIl4GpQN8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="collage">
+        
+    </section>
+
+
+
+
+
+
+
+    <section class="footer">
+        <h2>About us</h2>
+        <p>Compare the world's top universities with the latest edition of the QS World University Rankings®, and
+            explore leading institutions by region and subject.
+
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made with<i class="fa-brands fa-heart-o"></i>by university.com</p>
+
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
